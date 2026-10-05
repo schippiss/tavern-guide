@@ -1,0 +1,11 @@
+/* Geometric icons do not depend on a device's emoji font. */
+.brand-icon{display:inline-flex;align-items:center;flex-shrink:0}
+.brand-icon img{display:block;width:42px;height:42px}
+.ui-arrow{position:relative;display:inline-block;width:.85em;height:.85em;margin-inline:.12em;vertical-align:-.05em;color:inherit}
+.ui-arrow:before{content:'';position:absolute;left:8%;top:46%;width:80%;border-top:1.4px solid currentColor}
+.ui-arrow:after{content:'';position:absolute;right:8%;top:23%;width:42%;height:42%;border-top:1.4px solid currentColor;border-right:1.4px solid currentColor;transform:rotate(45deg)}
+.ui-arrow.diagonal{transform:rotate(-45deg)}
+.ui-star{display:inline-block;width:1em;height:1em;background:url('assets/signature-star.svg') center/contain no-repeat;vertical-align:-.12em}
+.card:after,.hero:after{content:'';width:25px;height:25px;background:url('assets/signature-star.svg') center/contain no-repeat}
+.header:after{content:'';width:9px;height:9px;padding:0;bottom:-5px;border:1px solid #e5c296;transform:rotate(45deg)}
+@media(max-width:700px){.brand-icon img{width:36px;height:36px}}
