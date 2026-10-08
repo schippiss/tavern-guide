@@ -1,4 +1,5 @@
 /* First design, with the reading layout and author gallery from variant II. */
+.collection-extra-link{display:block;margin-top:10px;font-size:14px}
 .welcome-art{margin:0;align-self:center;padding:12px;border:1px solid #c3a17a;background:#28101a;box-shadow:0 20px 60px #0004;border-radius:160px 160px 4px 4px;overflow:hidden}
 .welcome-art img{display:block;width:100%;height:auto;border-radius:150px 150px 2px 2px}
 body[data-page=home] .welcome-art figcaption{color:#e6cbb1;font:italic 17px/1.6 Georgia;margin:14px 0 3px}
@@ -29,3 +30,22 @@ body[data-page=home] .step-no{font:italic 24px Georgia;letter-spacing:0}
 .author-art{height:auto;aspect-ratio:4/5}.author-art img{display:block;object-position:center 25%}.author-art:after{display:none}.author-index,.author-star{background:#241520b3;padding:3px 7px}.author-info>p:not(.eyebrow){max-width:440px;font-size:16px}
 @media(max-width:1000px){.has-portrait{min-height:540px;padding-top:100px}.has-portrait .portrait-frame{min-height:410px}.welcome-portrait{height:540px}}
 @media(max-width:700px){.recommend-grid{grid-template-columns:1fr;gap:18px}.recommend-card{padding:25px}.has-portrait{min-height:480px;padding-top:95px;margin-top:20px}.has-portrait .portrait-frame{min-height:360px}.welcome-portrait{height:475px;bottom:30px}.author-art{height:auto}.site-updates{font-size:14px}.author-info>p:not(.eyebrow){font-size:15px}}
+/* Compact author gallery and a separate discovery service. */
+.author-gallery .author-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start}
+.author-gallery .author-card:nth-child(even){padding-top:0}
+.author-gallery .author-art{aspect-ratio:1;height:auto}
+.author-gallery .author-info{padding-top:18px}
+.author-gallery .author-info h2{font-size:2.2rem;margin-bottom:12px}
+.author-gallery .author-info>p:not(.eyebrow){font-size:16px;line-height:1.8}
+.author-gallery .author-index{left:14px;top:14px}.author-gallery .author-star{right:14px;top:10px}
+.finder-recommendation{margin-top:50px;padding:28px 30px;background:#eee0d4;border:1px solid #c7aa85;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center}
+.finder-recommendation h2{font-size:2rem;margin-bottom:18px}
+.finder-recommendation p{font-size:15px;line-height:1.8}
+.finder-recommendation .small{font-size:12px;margin-bottom:0}
+.finder-recommendation .btn{white-space:nowrap;font-size:13px}
+@media(max-width:1000px){.author-gallery .author-grid{gap:20px}.author-gallery .author-info h2{font-size:1.9rem}.finder-recommendation{grid-template-columns:1fr}.finder-recommendation .btn{justify-self:start}}
+@media(max-width:700px){.author-gallery .author-grid{grid-template-columns:1fr;gap:32px}.author-gallery .author-card{width:100%;max-width:340px;margin-inline:auto}.author-gallery .author-art{aspect-ratio:6/5}.author-gallery .author-info h2{font-size:2rem}.finder-recommendation{padding:23px 20px;margin-top:35px;gap:18px}.finder-recommendation h2{font-size:1.7rem}}
+.finder-recommendation{display:block}.finder-recommendation>p{margin:0}
+.author-gallery .author-info h2{overflow-wrap:anywhere}
+
+@media(max-width:700px){.author-gallery .author-info>p:not(.eyebrow){font-size:15px}}
