@@ -3,6 +3,7 @@ const authorProfiles = [
  {id:'schippis',name:'Schippis',initial:'S',image:'assets/author-schippis.jpg',url:'https://t.me/schippisschreibt',description:'Ваша верная слуга. Пишу ботов на разные темы — одиночек и мульти, а ещё промпты для картинок.'},
  {id:'murx',name:'múrx',initial:'m',image:'assets/author-murx.jpg',url:'https://t.me/murxaibot',description:'Пишет ботов и создаёт темы для Таверны и Tavo.'},
  {id:'avtobus',name:'Автобус',initial:'А',image:'assets/authot-avtobus.jpg',url:'https://t.me/avtobusbots',description:'Автор ботов для ролевых историй. Знакомься с персонажами в Telegram-канале.'},
+ {id:'morti',name:'♡ 𝕄𝕠𝕣𝕥𝕚 𝕚𝕟 𝕛𝕒𝕚 ♡',initial:'M',image:'assets/author-morti.jpg',url:'https://t.me/morti_in_jai',description:'Пишет ботов разных жанров и тропов: от флаффа до стекла, криминала, исторических сеттингов, мистики и психологических драм, в slow burn.'},
  {id:'anfitka',name:'Anfitka',initial:'A',image:'assets/author-anfitka.jpg',url:'https://t.me/anfitka',description:'Карточки персонажей и публикации автора — в Telegram-канале.'},
  {id:'wewwa',name:'Wewwa',initial:'W',image:'assets/author-wewwa.jpg',url:'https://t.me/wewwajai',description:'Пишет ботов и гайды по Таверне. Автор Slay Images — расширения для генерации изображений.'},
  {id:'soromolly',name:'ꜱᴛ ✧ ꜱᴏʀᴏᴍᴏʟʟʏ',initial:'S',image:'assets/author-soromolly.jpg',url:'https://t.me/st_soromolly',description:'Пишет ботов и создаёт расширения для Таверны.'},
